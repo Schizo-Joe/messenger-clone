@@ -1,35 +1,35 @@
 .Home {
-    text-align: center;
-  }
-  
+  text-align: center;
+}
+
 .home__form {
-    padding: 20px;
-    position: fixed;
-    bottom: 0;
-    background-color: #e9e9eb;
-    width: 92%;
-    margin: 20px;
-    border-radius: 35px;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  background-color: #e9e9eb;
+  width: 92%;
+  margin: 20px;
+  border-radius: 35px;
 }
 
 .home__formControl {
-    display: flex !important;
-    flex-direction: row !important;
+  display: flex !important;
+  flex-direction: row !important;
 }
 
 .home__input {
-    flex: 1;
+  flex: 1;
 }
 
 .home__iconButton {
-    width: 30px;
+  width: 30px;
 }
 
 .home__messageList {
-    padding-inline-start: unset;
+  padding-inline-start: unset;
 }
 
 .home__flipper {
-    width: 100%;
-    margin-bottom: 119px;
+  width: 100%;
+  margin-bottom: 119px;
 }

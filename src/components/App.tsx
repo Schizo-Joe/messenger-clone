@@ -5,7 +5,6 @@ import Home from './Home';
 import Login from './Login';
 import PrivateRoute from './PrivateRoute';
 
-
 const App = () => {
   return (
     <Router>
