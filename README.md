@@ -1,3 +1,5 @@
+Messenger-Clone is a clone implementation of the Facebook messenger app and is meant to be a demonstration oh how to build a basic chat web application integrated with Firebase.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
