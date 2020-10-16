@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Container } from "@material-ui/core";
+import { Button, Container, Grid } from "@material-ui/core";
 import "./Login.css";
 import { useAuth } from "../contexts/AuthContext";
 import { useHistory } from "react-router-dom";
@@ -40,24 +40,24 @@ const Login = () => {
 
   return (
     <>
-      <Container fixed>
-        <div className="login__box">
-          <h1>Login</h1>
-          {error && <span>{error}</span>}
-          <button
-            className="googleBtn"
-            type="button"
-            onClick={handleLoginGoogleClick}
-            disabled={loading}
-          >
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
-              alt="logo"
-            />
-            Login With Google
-          </button>
-        </div>
-      </Container>
+      <Grid container alignItems="center" justify="center" style={{ minHeight: '100vh'}}>
+        <Container>
+          <div className="login__box" style={{ textAlign: 'center' }}>
+            <h1>Messenger Clone</h1>
+            {error && <span>{error}</span>}
+            <Button
+              className="login__GoogleLoginButton"
+              type="button"
+              onClick={handleLoginGoogleClick}
+              disabled={loading}
+              variant="contained"
+              style={{ textTransform: 'none' }}
+            >
+              Sign in  with Google
+            </Button>
+          </div>
+        </Container>
+      </Grid>
     </>
   );
 };

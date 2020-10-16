@@ -67,7 +67,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="Home">
+    <div className="home">
       <img
         src="https://facebookbrand.com/wp-content/uploads/2018/09/Header-e1538151782912.png?w=99&amp;h=99"
         alt="messenger logo"
